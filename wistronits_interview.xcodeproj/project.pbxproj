@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C44D8CBB27DA3E1F00F8DBBE /* FriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C44D8CB927DA3E1F00F8DBBE /* FriendCell.m */; };
+		C44D8CBC27DA3E1F00F8DBBE /* FriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44D8CBA27DA3E1F00F8DBBE /* FriendCell.xib */; };
 		C46B7C3627D844C600FD58FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B7C3527D844C600FD58FA /* AppDelegate.m */; };
 		C46B7C3927D844C600FD58FA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B7C3827D844C600FD58FA /* SceneDelegate.m */; };
-		C46B7C3C27D844C600FD58FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B7C3B27D844C600FD58FA /* ViewController.m */; };
 		C46B7C3F27D844C600FD58FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46B7C3D27D844C600FD58FA /* Main.storyboard */; };
 		C46B7C4127D844CF00FD58FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46B7C4027D844CF00FD58FA /* Assets.xcassets */; };
 		C46B7C4427D844CF00FD58FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46B7C4227D844CF00FD58FA /* LaunchScreen.storyboard */; };
@@ -17,6 +18,12 @@
 		C46B7C5127D844D000FD58FA /* wistronits_interviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B7C5027D844D000FD58FA /* wistronits_interviewTests.m */; };
 		C46B7C5B27D844D000FD58FA /* wistronits_interviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B7C5A27D844D000FD58FA /* wistronits_interviewUITests.m */; };
 		C46B7C5D27D844D000FD58FA /* wistronits_interviewUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B7C5C27D844D000FD58FA /* wistronits_interviewUITestsLaunchTests.m */; };
+		C46B7C6B27D8457600FD58FA /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B7C6A27D8457600FD58FA /* MainVC.m */; };
+		C46B7C8F27D882F900FD58FA /* OpenApi.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B7C8E27D882F800FD58FA /* OpenApi.m */; };
+		C46B7C9227D88DA700FD58FA /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B7C9127D88DA600FD58FA /* DataManager.m */; };
+		C46B7C9527D89F3F00FD58FA /* FriendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B7C9427D89F3E00FD58FA /* FriendVC.m */; };
+		C46B7C9C27D8AFB500FD58FA /* InviteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B7C9A27D8AFB500FD58FA /* InviteCell.m */; };
+		C46B7C9D27D8AFB500FD58FA /* InviteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C46B7C9B27D8AFB500FD58FA /* InviteCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C44D8CB827DA3E1F00F8DBBE /* FriendCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendCell.h; sourceTree = "<group>"; };
+		C44D8CB927DA3E1F00F8DBBE /* FriendCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendCell.m; sourceTree = "<group>"; };
+		C44D8CBA27DA3E1F00F8DBBE /* FriendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendCell.xib; sourceTree = "<group>"; };
 		C46B7C3127D844C600FD58FA /* wistronits_interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wistronits_interview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46B7C3427D844C600FD58FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C46B7C3527D844C600FD58FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C46B7C3727D844C600FD58FA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		C46B7C3827D844C600FD58FA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		C46B7C3A27D844C600FD58FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C46B7C3B27D844C600FD58FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C46B7C3E27D844C600FD58FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C46B7C4027D844CF00FD58FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C46B7C4327D844CF00FD58FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +62,17 @@
 		C46B7C5627D844D000FD58FA /* wistronits_interviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wistronits_interviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46B7C5A27D844D000FD58FA /* wistronits_interviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wistronits_interviewUITests.m; sourceTree = "<group>"; };
 		C46B7C5C27D844D000FD58FA /* wistronits_interviewUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wistronits_interviewUITestsLaunchTests.m; sourceTree = "<group>"; };
+		C46B7C6927D8457600FD58FA /* MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		C46B7C6A27D8457600FD58FA /* MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		C46B7C8D27D882F800FD58FA /* OpenApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenApi.h; sourceTree = "<group>"; };
+		C46B7C8E27D882F800FD58FA /* OpenApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenApi.m; sourceTree = "<group>"; };
+		C46B7C9027D88DA600FD58FA /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		C46B7C9127D88DA600FD58FA /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		C46B7C9327D89F3E00FD58FA /* FriendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendVC.h; sourceTree = "<group>"; };
+		C46B7C9427D89F3E00FD58FA /* FriendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendVC.m; sourceTree = "<group>"; };
+		C46B7C9927D8AFB500FD58FA /* InviteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InviteCell.h; sourceTree = "<group>"; };
+		C46B7C9A27D8AFB500FD58FA /* InviteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InviteCell.m; sourceTree = "<group>"; };
+		C46B7C9B27D8AFB500FD58FA /* InviteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InviteCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +100,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C44D8CB727DA3DE400F8DBBE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C44D8CB827DA3E1F00F8DBBE /* FriendCell.h */,
+				C44D8CB927DA3E1F00F8DBBE /* FriendCell.m */,
+				C44D8CBA27DA3E1F00F8DBBE /* FriendCell.xib */,
+				C46B7C9927D8AFB500FD58FA /* InviteCell.h */,
+				C46B7C9A27D8AFB500FD58FA /* InviteCell.m */,
+				C46B7C9B27D8AFB500FD58FA /* InviteCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		C46B7C2827D844C500FD58FA = {
 			isa = PBXGroup;
 			children = (
@@ -108,8 +140,15 @@
 				C46B7C3527D844C600FD58FA /* AppDelegate.m */,
 				C46B7C3727D844C600FD58FA /* SceneDelegate.h */,
 				C46B7C3827D844C600FD58FA /* SceneDelegate.m */,
-				C46B7C3A27D844C600FD58FA /* ViewController.h */,
-				C46B7C3B27D844C600FD58FA /* ViewController.m */,
+				C46B7C8D27D882F800FD58FA /* OpenApi.h */,
+				C46B7C8E27D882F800FD58FA /* OpenApi.m */,
+				C46B7C9027D88DA600FD58FA /* DataManager.h */,
+				C46B7C9127D88DA600FD58FA /* DataManager.m */,
+				C46B7C6927D8457600FD58FA /* MainVC.h */,
+				C46B7C6A27D8457600FD58FA /* MainVC.m */,
+				C46B7C9327D89F3E00FD58FA /* FriendVC.h */,
+				C46B7C9427D89F3E00FD58FA /* FriendVC.m */,
+				C44D8CB727DA3DE400F8DBBE /* view */,
 				C46B7C3D27D844C600FD58FA /* Main.storyboard */,
 				C46B7C4027D844CF00FD58FA /* Assets.xcassets */,
 				C46B7C4227D844CF00FD58FA /* LaunchScreen.storyboard */,
@@ -239,8 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44D8CBC27DA3E1F00F8DBBE /* FriendCell.xib in Resources */,
 				C46B7C4427D844CF00FD58FA /* LaunchScreen.storyboard in Resources */,
 				C46B7C4127D844CF00FD58FA /* Assets.xcassets in Resources */,
+				C46B7C9D27D8AFB500FD58FA /* InviteCell.xib in Resources */,
 				C46B7C3F27D844C600FD58FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,9 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C46B7C3C27D844C600FD58FA /* ViewController.m in Sources */,
+				C44D8CBB27DA3E1F00F8DBBE /* FriendCell.m in Sources */,
 				C46B7C3627D844C600FD58FA /* AppDelegate.m in Sources */,
 				C46B7C4727D844CF00FD58FA /* main.m in Sources */,
+				C46B7C8F27D882F900FD58FA /* OpenApi.m in Sources */,
+				C46B7C9227D88DA700FD58FA /* DataManager.m in Sources */,
+				C46B7C9527D89F3F00FD58FA /* FriendVC.m in Sources */,
+				C46B7C6B27D8457600FD58FA /* MainVC.m in Sources */,
+				C46B7C9C27D8AFB500FD58FA /* InviteCell.m in Sources */,
 				C46B7C3927D844C600FD58FA /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -429,7 +475,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
